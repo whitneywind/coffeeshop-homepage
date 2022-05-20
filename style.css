@@ -1,38 +1,36 @@
+* {
+    font-family: 'Manjari', sans-serif;
+}
+
 .container {
     background-color: rgb(243, 245, 241);
+    
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(57, 67, 53);
 }
 
 a:hover {
-    color:rgb(112, 113, 110)
+    color:rgb(186, 187, 184)
 }
 
 #logo {
     border-radius: 50%;
-    width: 110px;
-    margin: 20% auto;
+    width: 125px;
+    margin: 20% auto 70%;
 }
 
 header {
     height: 100vh;
     background-color: rgb(223, 228, 223);
-    width: 180px;
+    width: 190px;
     left: 0;
     display: flex;
     justify-content: center;
     position: sticky;
     top: 0;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-
 }
 
 .body-container {
@@ -44,4 +42,27 @@ ul {
     header {
       display: none;
     }
+  }
+
+  #navigation-container {
+      display: flex;
+      flex-direction: column;
+  }
+
+
+ #navigation-container ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      height: 20vh;
+      background-color: rgb(234, 239, 234);
+      justify-content: space-around;
+  }
+
+  #navigation-container p {
+      margin-top: 1.5rem;
+  }
+
+  .row-img {
+      width: 500px;
   }
