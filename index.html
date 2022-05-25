@@ -17,24 +17,21 @@
       <div>
         <nav>
             <div id="logo-container">
-                <img id="logo" src="/imgs/IMG_7844.jpg" alt="logo">
+                <a href="#"><img id="logo" src="/imgs/IMG_7844.jpg" alt="logo"></a>
             </div>
+            <h1 id="cafe-title">Tea Collective</h1>
             <div id="navigation-container">
                 <p>general</p>
                 <ul id="nav-list-1">
-                    <li><a href="#">coffee</a></li>
-                    <li><a href="#">menu</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">directions</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="map.html">directions</a></li>
+                    <li><a href="#">products</a></li>
                 </ul>
-                <p>teas</p>
+                <p>tea info</p>
                 <ul id="nav-list-2">
                     <li><a href="#">matcha</a></li>
                     <li><a href="#">green tea</a></li>
                     <li><a href="#">loose leaf</a></li>
-                    <li><a href="#">herbal tea</a></li>
-                    <li><a href="#">tea quiz</a></li>
                 </ul>
             </div>
         </nav>
@@ -44,10 +41,16 @@
 
       <div class="container">
           <div class="row row-content">
-            <div class="d-xs-none mt-2 col col-lg-10 offset-lg-1">
+            <div id="top-title" class="d-xs-flex d-sm-none mt-2 col col-lg-10 offset-lg-1">
+                <p1>Tea Collective</p1>
+            </div>
+            <div class="d-xs-none d-md-block mt-2 col col-lg-10 offset-lg-1">
                 <ul class="list-unstyled d-flex flex-row justify-content-end">
+                   <!--
                     <li><a href="#">login</a></li>
-                    <li class="mx-3"><a href="#">cart (0)</a></li>
+                    <li class="mx-2"><a href="#">cart (0)</a></li>
+                   -->
+                    <li class="mx-3"><a href="#" id="lang-btn" class="btn" type="button" data-bs-toggle="tooltip" lang="ko" data-bs-placement="bottom" title="영어->한국어">language (eng)</a></li>
                 </ul>
             </div>
            </div>
@@ -70,9 +73,14 @@
         </div>
         <div class="row row-content">
             <div class="clickables col col-lg-10 offset-lg-1 d-flex my-4">
-                <a class="mr-4"><img class="img-fluid row-img" src="/imgs/IMG_1029.jpg" alt="pic1" /></a>
-                <a class="mx-2"><img class="img-fluid row-img" src="/imgs/IMG_7491.jpg" alt="pic1" /></a>
+                <a class="mr-4"><img class="img-fluid row-img" src="/imgs/IMG_7491.jpg" alt="pic1" /></a>
+                <a class="mx-2"><img class="img-fluid row-img" src="/imgs/IMG_1029.jpg" alt="pic1" /></a>
                 <a class="ml-4"><img class="img-fluid row-img" src="/imgs/IMG_7152.jpg" alt="pic1" /></a>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="clickables col col-lg-10 offset-lg-1 d-flex my-4">
+                <p> text content </p>
             </div>
         </div>
     </div>
@@ -80,6 +88,6 @@
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="app/js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
