@@ -84,17 +84,41 @@ header {
     color: var(--font-color);
 }
 
-  .row-img {
-      width: 500px;
-  }
-
 a {
     text-decoration: none;
-    color: rgb(57, 67, 53);
+    color: var(--font-color);
 }
 
 a:hover {
     color:rgb(186, 187, 184)
+}
+
+.card-container {
+    justify-content: center;
+}
+.card, .card-body {
+    background-color: rgb(248, 251, 248);
+    color: var(--font-color);
+}
+
+.card-title {
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--font-color);
+    padding-top: 4%;
+}
+.card{
+    max-width: 45%;
+    margin: 0.4rem;
+   
+    min-width: 300px;
+
+}
+
+.tooltip-inner {
+    background-color: rgb(155, 164, 153);
+    font-size: 1.1rem;
+    padding-top: 8px;
 }
 
 
