@@ -94,7 +94,7 @@ a:hover {
 }
 
 .card-container {
-    justify-content: center;
+    justify-content: space-around;
 }
 .card, .card-body {
     background-color: rgb(248, 251, 248);
@@ -107,12 +107,10 @@ a:hover {
     color: var(--font-color);
     padding-top: 4%;
 }
-.card{
+.card {
     max-width: 45%;
-    margin: 0.4rem;
-   
     min-width: 300px;
-
+    margin: 5% auto;
 }
 
 .tooltip-inner {
