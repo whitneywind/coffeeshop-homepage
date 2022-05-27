@@ -76,12 +76,28 @@ header {
 
   .container {
     background-color: var(--main-bg);
+    min-width: 300px;
 }
 
-#top-title {
+#top-title h1{
     align-self: center;
     font-size: 2rem;
     color: var(--font-color);
+    flex-wrap: nowrap;
+}
+
+#xs-nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    padding-left: 7px;
+}
+
+#lang-btn {
+    font-size: 1rem;
 }
 
 a {
